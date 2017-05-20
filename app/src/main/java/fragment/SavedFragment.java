@@ -12,6 +12,7 @@ import android.widget.Button;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import interfaces.OnExploreSelected;
 import mx.lumbrera.airbnb.R;
 
 public class SavedFragment extends Fragment {
@@ -68,10 +69,5 @@ public class SavedFragment extends Fragment {
     public void onDetach() {
         super.onDetach();
         mListener = null;
-    }
-
-    public interface OnExploreSelected {
-        // TODO: Update argument type and name
-        void onExploreSelected();
     }
 }

@@ -56,5 +56,8 @@
     <string name="saved_desc">Si ves algo que te gusta, pulsa en el ícono del corazón para guardarlo. Si estás planeando un viaje con más gente. puedes invitarlos para que puedan guardar y votar sus lugares favoritos.</string>
     <string name="start_exploring_label">Empieza a explorar</string>
     <string name="adventure_tag">¿Cuál va a ser tu primera aventura?</string>
+    <string name="no_messages_tag">No hay mensajes</string>
+    <string name="no_messages_desc">Cuando descubras el alojamiento perfecto, escribe al anfitrión, cuéntale un poco sobre ti y el motivo de tu viaje.</string>
+    <string name="messages_title">Mensajes</string>
 
 </resources>
