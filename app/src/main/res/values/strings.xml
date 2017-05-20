@@ -52,5 +52,8 @@
     <string name="label_host">Tu anfitrión: Ana</string>
     <string name="label_details">Detalles del alojamiento</string>
     <string name="label_more_info">Más información</string>
+    <string name="saved_tag">Guardados</string>
+    <string name="saved_desc">Si ves algo que te gusta, pulsa en el ícono del corazón para guardarlo. Si estás planeando un viaje con más gente. puedes invitarlos para que puedan guardar y votar sus lugares favoritos.</string>
+    <string name="start_exploring_label">Empieza a explorar</string>
 
 </resources>

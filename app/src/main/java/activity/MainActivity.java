@@ -9,9 +9,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import fragment.ExploreFragment;
+import fragment.SavedFragment;
 import mx.lumbrera.airbnb.R;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements SavedFragment.OnExploreSelected {
 
     public static final String PARAM_OBJECT = "param_object";
     private BottomNavigationView bottomNavigationView;
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case R.id.action_saved:
+                        switchFragment(SavedFragment.newInstance());
                         break;
 
                     case R.id.action_travels:
@@ -79,16 +81,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onExploreSelected() {
+        bottomNavigationView.setSelectedItemId(R.id.action_explore);
     }
 }
