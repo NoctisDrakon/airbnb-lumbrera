@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Airbnb</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Bottom navigation strings -->
+    <string name="action_explore">Explorar</string>
+    <string name="action_saved">Guardados</string>
+    <string name="action_travels">Viajes</string>
+    <string name="action_messages">Mensajes</string>
+    <string name="action_profile">Perfil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_anywhere">En cualquier lugar</string>
+    <string name="button_1_people_base">1 huésped</string>
+    <string name="button_anytime">En cualquier momento</string>
+    <string name="where_going">¿A dónde vamos?</string>
+    <string name="to">Hasta</string>
+    <string name="from">Desde</string>
+    <string name="error_select_date">Por favor selecciona al menos una fecha</string>
+    <string name="label_adults">Adultos</string>
+    <string name="button_less">-</string>
+    <string name="button_more">+</string>
+    <string name="label_kids">Niños</string>
+    <string name="label_kids_sub">Entre 2 y 12 años</string>
+    <string name="label_babys">Bebés</string>
+    <string name="label_babys_sub">Menores de 2 años</string>
+    <string name="label_pets">Mascotas</string>
+
+    <string name="adult_format">%1$s Adulto</string>
+    <string name="kid_format">%1$s Niño</string>
+    <string name="baby_format">%1$s Bebé</string>
+
+    <string name="adults_format">%1$s Adultos</string>
+    <string name="kids_format">%1$s Niños</string>
+    <string name="babies_format">%1$s Bebés</string>
+    <string name="with_pet">con mascota</string>
+    <string name="acommodation_title">Alojamiento</string>
+    <string name="experiences_title">Experiencias</string>
+    <string name="places_title">Lugares</string>
+    <string name="acommodation_title_rv">Todos los alojamientos</string>
+    <string name="euro_format">€%1$s</string>
+    <string name="experiences_title_rv">Todas las experiencias</string>
+    <string name="places_title_rv">Todos los lugares</string>
+    <string name="title_activity_item_detail">ItemDetailActivity</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam non lacus venenatis, suscipit nisl a, lacinia mauris. Vestibulum a ante nec risus mollis placerat. Aliquam dui ex, aliquet ut congue sit amet, eleifend nec nisi. Donec mattis ultricies vestibulum. Nunc tempus hendrerit eleifend. Sed nec nibh eget est vehicula tincidunt. Integer bibendum arcu tellus, vel rhoncus leo rhoncus vel. In turpis nisi, aliquam sed ultricies sed, porta vel nisi. Duis aliquam, metus quis faucibus efficitur, erat velit dapibus tortor, non convallis ante nisl et velit. Duis condimentum suscipit ex in laoreet.</string>
+    <string name="error_item_null">Error: Esta pantalla requiere datos de entrada.</string>
+    <string name="check_availability">Comprobar disponibilidad</string>
+    <string name="info_label">Información</string>
+    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dignissim ex quam, at gravida eros rutrum sed. Suspendisse ut auctor mauris, hendrerit hendrerit tellus. Donec sit amet consectetur dui.</string>
+    <string name="full_accomodation">Alojamiento entero</string>
+    <string name="label_host">Tu anfitrión: Ana</string>
+    <string name="label_details">Detalles del alojamiento</string>
+    <string name="label_more_info">Más información</string>
+
+</resources>
