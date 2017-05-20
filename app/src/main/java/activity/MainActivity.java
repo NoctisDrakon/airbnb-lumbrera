@@ -10,9 +10,11 @@ import android.view.MenuItem;
 
 import fragment.ExploreFragment;
 import fragment.SavedFragment;
+import fragment.TravelsFragment;
 import mx.lumbrera.airbnb.R;
 
-public class MainActivity extends AppCompatActivity implements SavedFragment.OnExploreSelected {
+public class MainActivity extends AppCompatActivity implements SavedFragment.OnExploreSelected,
+        TravelsFragment.OnExploreSelected {
 
     public static final String PARAM_OBJECT = "param_object";
     private BottomNavigationView bottomNavigationView;
@@ -36,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements SavedFragment.OnE
                         break;
 
                     case R.id.action_travels:
+                        switchFragment(TravelsFragment.newInstance());
                         break;
 
                     case R.id.action_messages:
