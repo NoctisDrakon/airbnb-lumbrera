@@ -10,6 +10,7 @@ import android.view.MenuItem;
 
 import fragment.ExploreFragment;
 import fragment.MessagesFragment;
+import fragment.ProfileFragment;
 import fragment.SavedFragment;
 import fragment.TravelsFragment;
 import interfaces.OnExploreSelected;
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements OnExploreSelected
                         break;
 
                     case R.id.action_profile:
+                        switchFragment(ProfileFragment.newInstance());
                         break;
 
                 }
